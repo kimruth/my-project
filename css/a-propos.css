@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: inherit;
+  background: rgba(0, 0, 0, 0.65);
+  color: rgba(255, 255, 255, 0.66);
+  font-family: sans-serif;
+}
+body header {
+  display: flex;
+  background: rgba(222, 184, 135, 0.669);
+}
+body header .navbar {
+  width: 100%;
+  height: 70px;
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 2px;
+}
+body header .navbar .image {
+  margin-left: 1.5pc;
+  float: left;
+}
+body header .navbar .image img {
+  border-radius: 50%;
+  border: solid green;
+}
+body header .navbar ul {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
+body header .navbar ul li {
+  list-style: none;
+}
+body header .navbar ul a {
+  color: white;
+  text-decoration: none;
+}
+body .contain {
+  height: 700px;
+  color: black;
+  font-size: 2em;
+}
+body .contain h1 {
+  text-align: center;
+  color: rgb(0, 128, 0);
+  -webkit-text-decoration: underline rgba(232, 148, 14, 0.427);
+          text-decoration: underline rgba(232, 148, 14, 0.427);
+  margin-top: 50px;
+}
+body .contain .commun1 {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+body .contain .commun1 .advised1 {
+  height: 25px;
+  width: 600px;
+  background: rgba(222, 184, 135, 0.669);
+  justify-content: center;
+  text-align: center;
+}
+body .contain .commun1 .advised2 {
+  height: 25px;
+  width: 600px;
+  background: rgba(222, 184, 135, 0.669);
+  margin-top: 150px;
+  justify-content: center;
+  text-align: center;
+}
+body .contain .commun2 {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+body .contain .commun2 .advised3 {
+  background: rgba(222, 184, 135, 0.669);
+  width: 600px;
+  height: 25px;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+body .contain .commun2 .advised4 {
+  background: rgba(222, 184, 135, 0.669);
+  width: 600px;
+  height: 25px;
+  margin-top: 250px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  background: rgba(222, 184, 135, 0.669);
+  margin-top: 20em;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+  font-size: 1.5rem;
+}
+.footer ul li {
+  list-style: none;
+  text-align: center;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=a-propos.css.map */

@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(/asset/img/royal1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: inherit;
+  background: rgba(0, 0, 0, 0.65);
+  color: rgba(255, 255, 255, 0.66);
+  font-family: sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(222, 184, 135, 0.669);
+}
+body header .navbar {
+  width: 100%;
+  height: 70px;
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 2px;
+}
+body header .navbar .image {
+  margin-left: 1.5pc;
+  float: left;
+}
+body header .navbar .image img {
+  border-radius: 50%;
+  border: solid green;
+}
+body header .navbar ul {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
+body header .navbar ul li {
+  list-style: none;
+}
+body header .navbar ul a {
+  color: white;
+  text-decoration: none;
+}
+body .search_bar {
+  width: 100%;
+  height: 90%;
+  margin-top: 2%;
+  font-size: 20px;
+  float: right;
+  justify-content: right;
+  text-align: right;
+}
+body .search_bar input {
+  padding: 3px;
+  width: 10%;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+}
+body .h1 {
+  color: rgba(0, 128, 0, 0.484);
+  text-align: center;
+  font-size: 15rem;
+  justify-content: center;
+}
+body .object .note {
+  margin-top: 5pc;
+  text-align: center;
+  justify-content: space-between;
+}
+body .object .note .content {
+  margin: 0 5% 0 5%;
+  font-size: 2em;
+}
+body .object .note .content h4 {
+  font-style: italic;
+  color: rgb(248, 6, 6);
+}
+body .login {
+  background: rgba(0, 0, 255, 0.146);
+  font-size: large;
+  text-align: right;
+  margin-right: 80%;
+}
+body .login a {
+  color: white;
+}
+
+.footer {
+  background: rgba(222, 184, 135, 0.669);
+  margin-top: 5em;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+  font-size: 1.5rem;
+}
+.footer ul li {
+  list-style: none;
+  text-align: center;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=acceil.css.map */

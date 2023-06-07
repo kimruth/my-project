@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(/asset/img/truesmile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    // background-color: rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+    .login {
+        text-align: center;
+        font-size: 25px;
+        background: rgba(130, 121, 70, 0.582);
+        width: 750px;
+        height: 570px;
+        margin: 120px auto;
+        border-radius: 5px;
+        display: flex;
+
+        .contain {
+            background: rgba(72, 91, 43, 0.662);
+            width: 350px;
+            justify-content: center;
+            text-align: center;
+
+            img {
+                margin-top: 5px;
+                margin-left: 5px;
+                margin-right: 350px;
+                box-sizing: border-box;
+                border-radius: 50px;
+                border: solid green;
+            }
+
+            p {
+                margin-top: 50px;
+            }
+
+            .item {
+                background: rgba(255, 0, 0, 0.041);
+                color: rgba(255, 0, 0, 0.635);
+                float: left;
+            }
+        }
+
+        h4 {
+            margin-top: 50px;
+            color: white;
+        }
+
+        .register {
+            .data {
+                height: 50px;
+                width: 250px;
+                display: list-item;
+                border: none;
+                text-align: center;
+                display: inline;
+                margin-top: 20px;
+                border-radius: 5%;
+            }
+
+            .log {
+                background: rgba(130, 121, 70, 0.53);
+                margin-left: 35px;
+                margin-right: 35px;
+                border-radius: 10px;
+                margin-top: 115px;
+
+                a {
+                    text-decoration: none;
+                    color: blue;
+                }
+            }
+        }
+
+        .submit {
+            margin-top: 50px;
+            width: 90px;
+            border: none;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.507);
+            border-radius: 5px;
+            height: 50px;
+        }
+    }
+}

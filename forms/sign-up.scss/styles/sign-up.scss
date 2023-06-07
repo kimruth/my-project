@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(/asset/img/truesmile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    // background-color: rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    // width: inherit;
+    color: white;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+    .login {
+
+        text-align: center;
+        font-size: 25px;
+        background: rgba(130, 121, 70, 0.582);
+        width: 950px;
+        // height: 770px;
+        margin: 120px auto;
+        border-radius: 5px;
+        display: flex;
+
+        .contain {
+            background: rgba(72, 91, 43, 0.662);
+            width: 475px;
+            justify-content: center;
+            text-align: center;
+
+            img {
+                margin-top: 5px;
+                margin-left: 5px;
+                margin-right: 350px;
+                border-radius: 50px;
+                border: solid green;
+            }
+
+            p {
+                margin-top: 102px;
+            }
+
+            .item {
+                background: rgba(255, 0, 0, 0.041);
+                color: rgba(255, 0, 0, 0.635);
+                margin-top: 50px;
+                float: left;
+            }
+        }
+
+        h4 {
+            margin-top: 50px;
+            color: white;
+        }
+
+        .register {
+            .data {
+                height: 50px;
+                width: 300px;
+                margin-top: 20px;
+                display: list-item;
+                border: none;
+                text-align: center;
+                display: inline;
+                border-radius: 5%;
+            }
+
+            .submit {
+                width: 90px;
+                margin-top: 35px;
+                border: none;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.507);
+                border-radius: 5px;
+                height: 50px;
+            }
+
+            .log {
+                background: rgba(130, 121, 70, 0.53);
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 40px;
+                font-size: 1.1em;
+                border-radius: 10px;
+
+                a{
+                    text-decoration: none;
+                    color: blue;
+                }
+            }
+        }
+    }
+}
