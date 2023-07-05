@@ -40,13 +40,17 @@ body .login .contain img {
   border-radius: 50px;
   border: solid green;
 }
-body .login .contain p {
+body .login .contain .text {
   margin-top: 50px;
 }
-body .login .contain .item {
+body .login .contain .thems {
   background: rgba(255, 0, 0, 0.041);
   color: rgba(255, 0, 0, 0.635);
+  margin-top: 20px;
   float: left;
+}
+body .login .contain .thems p {
+  margin-top: 50px;
 }
 body .login h4 {
   margin-top: 50px;
@@ -60,7 +64,7 @@ body .login .register .data {
   text-align: center;
   display: inline;
   margin-top: 20px;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 body .login .register .log {
   background: rgba(130, 121, 70, 0.53);
@@ -73,12 +77,17 @@ body .login .register .log a {
   text-decoration: none;
   color: blue;
 }
-body .login .submit {
+body .login .soumetre {
   margin-top: 50px;
-  width: 90px;
+}
+body .login .soumetre a {
+  text-decoration: none;
+  padding: 15px;
+}
+body .login .soumetre .submit {
   border: none;
   color: white;
+  width: 90px;
   background-color: rgba(0, 0, 0, 0.507);
   border-radius: 5px;
-  height: 50px;
 }/*# sourceMappingURL=sign-in.css.map */

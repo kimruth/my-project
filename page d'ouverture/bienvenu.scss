@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.650);
+
+    .image {
+        // background-color: blue;
+        position: relative;
+
+        img {
+            margin-left: 50%;
+            border: none;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+    }
+
+    .h1 {
+        color: green;
+        text-align: center;
+        font-size: 7rem;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: underline;
+        font-size: 3rem;
+        margin: 50px 750px;
+        color: rgba(255, 217, 0, 0.39);
+    }
+}

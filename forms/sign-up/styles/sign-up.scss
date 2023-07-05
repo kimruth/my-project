@@ -47,7 +47,7 @@ body {
                 margin-top: 102px;
             }
 
-            .item {
+            .thems {
                 background: rgba(255, 0, 0, 0.041);
                 color: rgba(255, 0, 0, 0.635);
                 margin-top: 50px;
@@ -69,17 +69,24 @@ body {
                 border: none;
                 text-align: center;
                 display: inline;
-                border-radius: 5%;
+                border-radius: 5px;
             }
 
-            .submit {
-                width: 90px;
-                margin-top: 35px;
-                border: none;
-                color: white;
-                background-color: rgba(0, 0, 0, 0.507);
-                border-radius: 5px;
-                height: 50px;
+            .soumetre {
+                margin-top: 45px;
+
+                a {
+                    text-decoration: none;
+                    padding: 10px;
+                }
+
+                .submit {
+                    width: 90px;
+                    border: none;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.507);
+                    border-radius: 5px;
+                }
             }
 
             .log {
@@ -90,7 +97,7 @@ body {
                 font-size: 1.1em;
                 border-radius: 10px;
 
-                a{
+                a {
                     text-decoration: none;
                     color: blue;
                 }
